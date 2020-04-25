@@ -55,10 +55,10 @@ function draw() {
     x4 = mouseX;
     y4 = mouseY;
   }
-  image(img3, x3, y3, img3.width/4, img3.height/4);
-  image(img4, x4, y4, img4.width/4, img4.height/4);
-  image(img1, x1, y1, img1.width/4, img1.height/4);
-  image(img2, x2, y2, img2.width/4, img2.height/4);
+  image(img3, x3, y3, img3.width/6, img3.height/6);
+  image(img4, x4, y4, img4.width/6, img4.height/6);
+  image(img1, x1, y1, img1.width/6, img1.height/6);
+  image(img2, x2, y2, img2.width/6, img2.height/6);
   
    fill(0);
    textSize(12);
