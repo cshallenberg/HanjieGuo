@@ -3,13 +3,13 @@ let img2;
 let img3;
 let img4;
 
-let x1 = 200;
+let x1;
 let y1;
-let x2 = 500;
+let x2;
 let y2;
-let x3 = 800;
+let x3;
 let y3;
-let x4 = 1100;
+let x4;
 let y4;
 
 function preload() {
@@ -23,9 +23,9 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
   x1 = width/4;
-  x2 = 2(width/4);
-  x3 = 3(width/4);
-  x4 = 4(width/4);
+  x2 = 2*(width/4);
+  x3 = 3*(width/4);
+  x4 = width;
   y1 = height/2;
   y2 = height/2;
   y3 = height/2;
