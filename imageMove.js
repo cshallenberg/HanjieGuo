@@ -22,10 +22,14 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  background(255);
+}
 
 function keyPressed() {
   if (value === 1) {
@@ -49,4 +53,9 @@ function draw() {
   image(img4, x4, y4, img4.width/4, img4.height/4);
   image(img1, x1, y1, img1.width/4, img1.height/4);
   image(img2, x2, y2, img2.width/4, img2.height/4);
+  
+   fill(0);
+   textSize(12);
+   textAlign(LEFT, TOP);
+   text("hold down numbers 1 though 4 to move the images with your mouse", 10, 10);
 }
