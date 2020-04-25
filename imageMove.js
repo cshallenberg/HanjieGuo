@@ -29,7 +29,7 @@ function windowResized() {
   background(255);
 }
 
-function keyPressed() {
+function keyIsDown() {
   if (key === '1') {
     x1 = mouseX;
     y1 = mouseY;
