@@ -30,16 +30,16 @@ function windowResized() {
 }
 
 function keyPressed() {
-  if (key == 1) {
+  if (key === '1') {
     x1 = mouseX;
     y1 = mouseY;
-  } else if (key == 2) {
+  } else if (key === '2') {
     x2 = mouseX;
     y2 = mouseY;
-  } else if (key == 3) {
+  } else if (key === '3') {
     x3 = mouseX;
     y3 = mouseY;
-  } else if (key == 4) {
+  } else if (key === '4') {
     x4 = mouseX;
     y4 = mouseY;
   }
