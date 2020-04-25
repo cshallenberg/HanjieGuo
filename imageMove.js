@@ -39,16 +39,16 @@ function windowResized() {
 
 function draw() {
   background(255);
-    if (keyIsDown('1')) {
+    if (keyIsDown(49)) {
     x1 = mouseX;
     y1 = mouseY;
-  } else if (keyIsDown('2')) {
+  } else if (keyIsDown(50)) {
     x2 = mouseX;
     y2 = mouseY;
-  } else if (keyIsDown('3')) {
+  } else if (keyIsDown(51)) {
     x3 = mouseX;
     y3 = mouseY;
-  } else if (keyIsDown('4')) {
+  } else if (keyIsDown(52)) {
     x4 = mouseX;
     y4 = mouseY;
   }
