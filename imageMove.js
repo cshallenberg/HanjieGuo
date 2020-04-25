@@ -3,16 +3,14 @@ let img2;
 let img3;
 let img4;
 
-let x1 = 50;
-let y1 = 200;
-let x2 = 150;
-let y2 = 200;
-let x3 = 250;
-let y3 = 200;
-let x4 = 350;
-let y4 = 200;
-
-let value = 0;
+let x1 = 200;
+let y1 = 500;
+let x2 = 500;
+let y2 = 500;
+let x3 = 800;
+let y3 = 500;
+let x4 = 1100;
+let y4 = 500;
 
 function preload() {
   img1 = loadImage('assets/1pad.png');
@@ -32,16 +30,16 @@ function windowResized() {
 }
 
 function keyPressed() {
-  if (value === 1) {
+  if (key == 1) {
     x1 = mouseX;
     y1 = mouseY;
-  } else if (value === 2) {
+  } else if (key == 2) {
     x2 = mouseX;
     y2 = mouseY;
-  } else if (value === 3) {
+  } else if (key == 3) {
     x3 = mouseX;
     y3 = mouseY;
-  } else if (value === 4) {
+  } else if (key == 4) {
     x4 = mouseX;
     y4 = mouseY;
   }
