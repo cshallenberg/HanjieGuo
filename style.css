@@ -10,7 +10,6 @@ canvas {
 }
 
 .video {
-  margin: auto;
-  width: 50%;
+  float: right;
   padding: 20px;
 }
