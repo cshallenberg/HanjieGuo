@@ -63,5 +63,5 @@ function draw() {
    fill(0);
    textSize(12);
    textAlign(LEFT, TOP);
-   text("hold down numbers 1 though 4 to move the mind maps with your mouse", 10, 10);
+   text("hold down numbers 1 though 4 on your keyboard to move the mind maps with your mouse", 10, 10);
 }
