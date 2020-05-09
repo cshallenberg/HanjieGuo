@@ -61,7 +61,7 @@ function draw() {
   image(img2, x2, y2, img2.width/5, img2.height/5);
   
    fill(0);
-   textSize(12);
-   textAlign(LEFT, TOP);
+   textSize(20);
+   textAlign(CENTER, TOP);
    text("hold down numbers 1 though 4 on your keyboard to move the mind maps with your mouse", 10, 10);
 }
