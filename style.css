@@ -5,3 +5,11 @@ html, body {
 canvas {
   display: block;
 }
+
+.imagemove {
+}
+
+.video {
+  display: block;
+  margin: auto;
+}
